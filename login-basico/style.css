@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Press Start 2P", system-ui;
+}
+body {
+    background-image: url(fundo.jpg);
+    background-position: center;
+    background-size: 1370px;
+    background-repeat: no-repeat;
+}
+#inf_principal {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#inf_conteudo {
+    background-color: #260a33c5;
+    backdrop-filter: saturation(180%) blur(20px);
+    width: 300px;
+    height: 375px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(236, 209, 248);
+}
+#inf_text {
+    align-items: center;
+    background-color: #AB5DCF;
+    backdrop-filter: saturation(180%) blur(20px);
+    border-radius: 16px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    margin-left: 20px;
+    width: 220px;
+    margin-bottom: 10px
+}
+#inf_senha {
+    align-items: center;
+    background-color: #AB5DCF;
+    backdrop-filter: saturation(180%) blur(20px);
+    border-radius: 16px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    margin-left: 20px;
+    width: 220px;
+}
+#inf_id1 {
+    color: white;
+    display: flex;
+    margin-left: 22px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    font-size: small;
+    font-weight: 200;
+}
+#inf_id2 {
+    color: white;
+    display: flex;
+    margin-left: 22px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    font-size: small;
+    font-weight: 200;
+}
+i {
+    font-size: medium;
+    color: white;
+    margin-left: 10px;
+}
+#inf_button {
+    align-items: center;
+    background-color: #AB5DCF;
+    backdrop-filter: saturation(180%) blur(20px);
+    color: rgba(236, 209, 248);
+    margin-top: 40px;
+    margin-left: 22px;
+    width: 120px;
+    text-align: center;
+    height: 32px;
+    border: none;
+    border-radius: 20px;
+}
+#inf_button2 {
+    align-items: center;
+    background-color: #AB5DCF;
+    backdrop-filter: saturation(180%) blur(20px);
+    color: rgba(236, 209, 248);
+    margin-top: 40px;
+    margin-right: 22px;
+    width: 120px;
+    text-align: center;
+    height: 32px;
+    border: none;
+    border-radius: 20px;
+}
+a {
+    color: white;
+    font-size: 6px;
+}
+#senha {
+    margin-left: 26px;
+    margin-top: 6px;
+}
+#aviso {
+    color: white;
+    font-size: 10px;
+    margin-left: 26px;
+    margin-top: 20px;
+}

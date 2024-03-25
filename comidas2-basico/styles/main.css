@@ -1,0 +1,38 @@
+.sobre {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    color: black;
+    gap: -20px;
+}
+#inicio {
+    border-radius: 20px;
+}
+#tudo {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px 120px 0px 120px;
+    border-bottom: #e9a209;
+}
+.sobre {
+    color: black;
+    
+}
+#sob {
+    color:#000000;
+    font-size: 1.7em;
+}
+#text:hover {
+    text-decoration:underline 2px;
+    text-decoration-color: #e9a209;
+
+}
+#sob2 {
+    font-size: 2em;
+    color: #e9a209;
+    margin-top: -20px;
+}
+

@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Dosis:wght@200..800&family=Madimi+One&family=Maven+Pro:wght@400..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Ojuju:wght@200..800&family=PT+Mono&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap');
+#navs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    padding-top: 10px;
+    position:fixed ;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.027);
+    background-color:  #fcebcca9;
+    backdrop-filter: saturate(180%) blur(20px);
+}
+body {
+    background-color:  #FCEBCC;
+}
+#titulo {
+    color: #e9a209;
+    font-size: 30px;
+}
+#list {
+    justify-content: space-around;
+    display: flex;
+    gap: 60px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: 400;
+}
+.lista1 {
+    margin: 10px;
+}
+.lista2 {
+    margin: 10px;
+}
+.lista3 {
+    margin: 10px;
+}
+.lista1:hover {
+    cursor: pointer;
+    border-bottom: 4px solid #e9a209;
+    transition: all 400ms;
+}
+.lista2:hover {
+    cursor: pointer;
+    border-bottom: 4px solid #e9a209;
+    transition: all 400ms;
+}
+.lista3:hover {
+    cursor: pointer;
+    border-bottom: 4px solid #e9a209;
+    transition: all 400ms;
+}
+.butt {
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #e9a209;
+    border: white;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+.butt:hover {
+    background-color: #bbbd4e;
+    transition: all 400ms;
+}
+.butt2 {
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: #e9a209;
+    border: white;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: small;
+}
+.butt3 {
+    height: 50px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: white;
+    border: white;
+    color: #e9a209;
+    font-weight: 900;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: small;
+    padding: 2px;
+}
+.buts {
+    width: 60px;
+    background-color: #e9a209;
+    font-size: small;
+    font-weight: 500;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    
+}
+.buts i {
+    background-color: #e9a209;
+    
+
+}
+img {
+    max-width: 100%; height: auto;
+}
